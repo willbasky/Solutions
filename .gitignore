@@ -1,0 +1,10 @@
+# haskell
+.stack-work/
+.hie/
+.vscode/
+
+
+# Added by cargo
+
+/target
+Cargo.lock

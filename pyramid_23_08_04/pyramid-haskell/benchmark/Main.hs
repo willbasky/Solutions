@@ -30,86 +30,85 @@ p2benchmark = do
 {-
 Benchmark pyramid-benchmark: RUNNING...
 benchmarking 4_000_000/w 0 0
-time                 11.54 ns   (11.48 ns .. 11.62 ns)
+time                 10.11 ns   (10.07 ns .. 10.16 ns)
                      1.000 R²   (1.000 R² .. 1.000 R²)
-mean                 11.53 ns   (11.48 ns .. 11.66 ns)
-std dev              274.3 ps   (115.3 ps .. 491.0 ps)
-variance introduced by outliers: 38% (moderately inflated)
+mean                 10.10 ns   (10.07 ns .. 10.13 ns)
+std dev              96.80 ps   (75.13 ps .. 130.5 ps)
 
 benchmarking 4_000_000/wSeq 0 0
-time                 12.18 ns   (12.02 ns .. 12.36 ns)
-                     0.998 R²   (0.996 R² .. 0.999 R²)
-mean                 12.25 ns   (12.11 ns .. 12.60 ns)
-std dev              678.8 ps   (376.7 ps .. 1.240 ns)
-variance introduced by outliers: 78% (severely inflated)
+time                 11.11 ns   (10.84 ns .. 11.36 ns)
+                     0.998 R²   (0.997 R² .. 1.000 R²)
+mean                 10.87 ns   (10.81 ns .. 11.00 ns)
+std dev              292.9 ps   (163.7 ps .. 442.1 ps)
+variance introduced by outliers: 45% (moderately inflated)
 
 benchmarking 4_000_000/wST 0 0
-time                 36.66 ns   (35.29 ns .. 38.56 ns)
-                     0.981 R²   (0.969 R² .. 0.989 R²)
-mean                 39.04 ns   (37.04 ns .. 41.70 ns)
-std dev              6.847 ns   (5.055 ns .. 9.080 ns)
-variance introduced by outliers: 97% (severely inflated)
+time                 26.22 ns   (25.75 ns .. 26.75 ns)
+                     0.998 R²   (0.998 R² .. 0.999 R²)
+mean                 26.22 ns   (25.98 ns .. 26.44 ns)
+std dev              767.6 ps   (669.6 ps .. 908.9 ps)
+variance introduced by outliers: 47% (moderately inflated)
 
 benchmarking 4_000_000/wMVector 0 0
-time                 23.98 ns   (23.29 ns .. 24.68 ns)
-                     0.994 R²   (0.990 R² .. 0.997 R²)
-mean                 23.31 ns   (22.84 ns .. 23.95 ns)
-std dev              1.843 ns   (1.382 ns .. 2.763 ns)
-variance introduced by outliers: 87% (severely inflated)
+time                 20.12 ns   (19.66 ns .. 20.59 ns)
+                     0.995 R²   (0.993 R² .. 0.997 R²)
+mean                 19.65 ns   (19.28 ns .. 20.12 ns)
+std dev              1.429 ns   (1.208 ns .. 1.709 ns)
+variance introduced by outliers: 86% (severely inflated)
 
 benchmarking 4_000_000/w 3 2
-time                 187.1 ns   (184.7 ns .. 192.2 ns)
-                     0.995 R²   (0.988 R² .. 0.999 R²)
-mean                 193.8 ns   (189.1 ns .. 201.7 ns)
-std dev              20.91 ns   (13.15 ns .. 27.77 ns)
-variance introduced by outliers: 92% (severely inflated)
+time                 146.1 ns   (144.0 ns .. 149.7 ns)
+                     0.995 R²   (0.993 R² .. 0.997 R²)
+mean                 155.1 ns   (151.0 ns .. 159.4 ns)
+std dev              14.12 ns   (12.18 ns .. 17.18 ns)
+variance introduced by outliers: 89% (severely inflated)
 
 benchmarking 4_000_000/wSeq 3 2
-time                 596.8 ns   (589.8 ns .. 606.7 ns)
-                     0.999 R²   (0.998 R² .. 1.000 R²)
-mean                 592.4 ns   (588.7 ns .. 597.5 ns)
-std dev              15.81 ns   (10.11 ns .. 24.08 ns)
-variance introduced by outliers: 37% (moderately inflated)
+time                 475.6 ns   (469.8 ns .. 480.1 ns)
+                     0.999 R²   (0.998 R² .. 0.999 R²)
+mean                 470.5 ns   (465.7 ns .. 477.0 ns)
+std dev              19.28 ns   (13.57 ns .. 28.99 ns)
+variance introduced by outliers: 58% (severely inflated)
 
 benchmarking 4_000_000/wST 3 2
-time                 151.7 ns   (151.0 ns .. 152.5 ns)
-                     1.000 R²   (0.999 R² .. 1.000 R²)
-mean                 151.3 ns   (150.6 ns .. 152.5 ns)
-std dev              2.905 ns   (2.098 ns .. 4.109 ns)
-variance introduced by outliers: 25% (moderately inflated)
+time                 127.2 ns   (117.2 ns .. 136.4 ns)
+                     0.979 R²   (0.966 R² .. 0.999 R²)
+mean                 123.8 ns   (120.8 ns .. 129.9 ns)
+std dev              14.37 ns   (8.390 ns .. 21.21 ns)
+variance introduced by outliers: 93% (severely inflated)
 
 benchmarking 4_000_000/wMVector 3 2
-time                 46.55 ns   (46.27 ns .. 46.79 ns)
-                     1.000 R²   (1.000 R² .. 1.000 R²)
-mean                 46.36 ns   (46.15 ns .. 46.52 ns)
-std dev              642.3 ps   (536.6 ps .. 756.6 ps)
-variance introduced by outliers: 16% (moderately inflated)
+time                 43.23 ns   (41.01 ns .. 45.24 ns)
+                     0.986 R²   (0.983 R² .. 0.992 R²)
+mean                 39.94 ns   (38.76 ns .. 41.36 ns)
+std dev              4.339 ns   (3.148 ns .. 5.798 ns)
+variance introduced by outliers: 93% (severely inflated)
 
 benchmarking 4_000_000/w 322 156
-time                 1.290 ms   (1.271 ms .. 1.312 ms)
-                     0.998 R²   (0.997 R² .. 0.999 R²)
-mean                 1.277 ms   (1.264 ms .. 1.291 ms)
-std dev              47.44 μs   (38.00 μs .. 57.57 μs)
-variance introduced by outliers: 26% (moderately inflated)
+time                 986.2 μs   (942.8 μs .. 1.044 ms)
+                     0.983 R²   (0.974 R² .. 0.992 R²)
+mean                 1.137 ms   (1.072 ms .. 1.255 ms)
+std dev              292.3 μs   (191.5 μs .. 408.2 μs)
+variance introduced by outliers: 95% (severely inflated)
 
 benchmarking 4_000_000/wSeq 322 156
-time                 8.917 ms   (8.842 ms .. 8.971 ms)
+time                 6.822 ms   (6.763 ms .. 6.884 ms)
                      0.999 R²   (0.999 R² .. 1.000 R²)
-mean                 8.900 ms   (8.854 ms .. 8.952 ms)
-std dev              142.6 μs   (96.66 μs .. 190.1 μs)
+mean                 6.892 ms   (6.845 ms .. 6.959 ms)
+std dev              155.6 μs   (95.55 μs .. 230.1 μs)
 
 benchmarking 4_000_000/wST 322 156
-time                 1.297 ms   (1.265 ms .. 1.352 ms)
-                     0.991 R²   (0.978 R² .. 1.000 R²)
-mean                 1.283 ms   (1.271 ms .. 1.312 ms)
-std dev              64.42 μs   (33.26 μs .. 119.8 μs)
-variance introduced by outliers: 38% (moderately inflated)
+time                 945.3 μs   (938.3 μs .. 955.5 μs)
+                     0.999 R²   (0.998 R² .. 0.999 R²)
+mean                 961.6 μs   (954.0 μs .. 972.7 μs)
+std dev              31.02 μs   (23.66 μs .. 42.79 μs)
+variance introduced by outliers: 22% (moderately inflated)
 
 benchmarking 4_000_000/wMVector 322 156
-time                 63.58 μs   (63.51 μs .. 63.68 μs)
+time                 62.97 μs   (62.95 μs .. 63.00 μs)
                      1.000 R²   (1.000 R² .. 1.000 R²)
-mean                 63.43 μs   (63.37 μs .. 63.50 μs)
-std dev              237.1 ns   (196.7 ns .. 312.2 ns)
+mean                 62.96 μs   (62.94 μs .. 62.99 μs)
+std dev              86.49 ns   (55.94 ns .. 134.3 ns)
 
 Benchmark pyramid-benchmark: FINISH
 -}

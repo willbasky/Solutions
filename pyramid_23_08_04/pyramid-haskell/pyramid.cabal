@@ -56,19 +56,24 @@ common common-options
 library
   import:              common-options
   hs-source-dirs:      src
-  exposed-modules:     Nitka
+  exposed-modules:     Pyramid
   build-depends:
       containers
     , extra
+    , vector
 
 executable pyramid
   import:              common-options
   hs-source-dirs:      app
   main-is:             Main.hs
-  build-depends:       pyramid
+  build-depends:
+      pyramid
+    , bytestring
   ghc-options:         -threaded
                        -rtsopts
                        -with-rtsopts=-N
+                       -O2
+                       -split-sections
 
 test-suite pyramid-test
   import:              common-options

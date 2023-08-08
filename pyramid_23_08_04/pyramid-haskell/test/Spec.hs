@@ -1,6 +1,6 @@
 module Main (main) where
 
-import Nitka (projectName)
+import Pyramid (projectName)
 
 
 main :: IO ()
